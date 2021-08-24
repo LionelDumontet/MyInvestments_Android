@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Set up JDK 1.8
-        run: actions/setup-java@v1
+        run: actions/setup-java
 
       # Runs a set of commands using the runners shell
       - name: Build with Gradle
